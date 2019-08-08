@@ -53,6 +53,8 @@ sudo chmod +x /etc/rc.d/rc.local   //权限
 
 /*20190809'default' => env('CACHE_DRIVER', 'file'),*/
 
+参考文章：https://wenda.tipask.com/article/5168
+
 
 
 
