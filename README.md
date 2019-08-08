@@ -55,6 +55,10 @@ sudo chmod +x /etc/rc.d/rc.local   //权限
 
 参考文章：https://wenda.tipask.com/article/5168
 
+## 采集代码及工具 ##
+
+### [Tipask采集问答数据入库脚本](./code/caiji.py)
+
 
 
 
