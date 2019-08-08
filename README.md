@@ -15,4 +15,30 @@
 
 **回调地址** QQ互联的后台 和 tipask后台 都是： http://你的问答域名/oauth/qq/callback
 
+#### 安装xunsearch
+
+cd /usr/local
+
+sudo wget http://www.xunsearch.com/download/xunsearch-full-latest.tar.bz2
+
+sudo tar -xjf xunsearch-full-latest.tar.bz2
+
+ls
+
+cd xunsearch-full-1.4.10
+
+sudo sh setup.sh
+
+配置开机启动
+
+sudo vi /etc/rc.d/rc.local   //本地服务器才加sudo
+
+/usr/local/xunsearch/bin/xs-ctl.sh restart  // 加入这一条命令到启动项
+
+sudo chmod +x /etc/rc.d/rc.local   //权限
+
+参看文章：http://www.liaofangping.com/69.html
+
+
+
 
