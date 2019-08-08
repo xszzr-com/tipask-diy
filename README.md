@@ -39,6 +39,20 @@ sudo chmod +x /etc/rc.d/rc.local   //权限
 
 参看文章：http://www.liaofangping.com/69.html
 
+## 缓存优化 ##
+
+* config/session.php
+
+'driver' => 'memcached',
+
+/*20190809'driver' => env('SESSION_DRIVER', 'file'),*/
+
+* config/cache.php
+
+'default' => 'memcached',
+
+/*20190809'default' => env('CACHE_DRIVER', 'file'),*/
+
 
 
 
