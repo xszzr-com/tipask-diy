@@ -1,3 +1,5 @@
+# https://www.gogochuang.com/post/56.html
+
 # coding:utf-8
 
 import MySQLdb as mdb
